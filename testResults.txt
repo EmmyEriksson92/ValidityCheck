@@ -1,0 +1,85 @@
+[
+Data:  189912299816
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Passed
+, 
+Data:  189102279800
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Passed
+, 
+Data:  194510168885
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Passed
+, 
+Data:  900118+9811
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Passed
+, 
+Data:  556614-3185
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Passed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  16556601-6399
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Passed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  262000-1111
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Passed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  190910799824
+Result for each test:
+IsCoordinationNumber: Passed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  190910799824
+Result for each test:
+IsCoordinationNumber: Passed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  201701272394
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  190910199824
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Passed
+IsSocialSecurityNumber: Failed
+, 
+Data:  null
+Result for each test:
+IsCoordinationNumber: Failed
+IsOrganizationNumber: Failed
+NotNull: Failed
+IsSocialSecurityNumber: Failed
+]
