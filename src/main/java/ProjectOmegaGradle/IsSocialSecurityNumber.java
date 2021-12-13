@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 
 public class IsSocialSecurityNumber implements ValidityCheck {
 
+	@Override
 	public boolean isValid(Data data) {
 		String content = data.getData();
 		return !ValidateUtils.isNull(content) && ValidateUtils.checkLength(content)
@@ -41,7 +42,7 @@ public class IsSocialSecurityNumber implements ValidityCheck {
 	 */
 	private static boolean validBirthday(Data data, String socialSecurityNumber) {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyMMdd");
-		dateFormat.setLenient(false);
+		dateFormat.setLenient(false); // Will fix a faulty date automatically if you have it to true.
 
 		try {
 			if (Integer.parseInt(data.getDay()) > 60) {

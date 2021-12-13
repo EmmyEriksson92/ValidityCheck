@@ -9,6 +9,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 public class IsCoordinationNumber implements ValidityCheck {
+	@Override
 	public boolean isValid(Data data) {
 		String content = data.getData();
 		return !ValidateUtils.isNull(content) && ValidateUtils.checkLength(content)

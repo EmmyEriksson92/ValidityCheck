@@ -1,5 +1,6 @@
 package ProjectOmegaGradle;
 
+
 public class ValidateUtils {
 
 	public static boolean containsOnlyNumbers(String data) {
@@ -10,6 +11,7 @@ public class ValidateUtils {
 			return false;
 		}
 	}
+	
 
 	public static boolean isNull(String data) {
 		if (data == null) {

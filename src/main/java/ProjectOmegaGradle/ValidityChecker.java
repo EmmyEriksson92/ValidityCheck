@@ -35,9 +35,9 @@ public class ValidityChecker {
 
 	}
 
-	public Collection<ValidityResults> isValid(List<Data> data) {
-		return data.stream().map(this::isValid).collect(Collectors.toList());
-	}
+	public Collection<ValidityResults> isValid(List<Data> data) { //:: <--är en operatör som skiljer klassnamn från metodnamnet. Metodreferens.
+		return data.stream().map(this::isValid).collect(Collectors.toList()); //map = ger en ström där alla elementen avbildats med hjälp av parameter i map
+	} //collect = a en s.k. kollektor som anger hur data skall samlas ihop.
 
 	public void saveResults(Collection<ValidityResults> data) {
 		try {

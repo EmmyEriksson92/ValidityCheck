@@ -7,6 +7,7 @@ package ProjectOmegaGradle;
  */
 
 public class IsOrganizationNumber implements ValidityCheck {
+	@Override
 	public boolean isValid(Data data) {
 		String content = data.getData();
 		return !ValidateUtils.isNull(content) && ValidateUtils.containsOnlyNumbers(content)
@@ -16,7 +17,7 @@ public class IsOrganizationNumber implements ValidityCheck {
 	}
 
 	/**
-	 * Method to check if first number of data is bigger smaller or equal to 9,
+	 * Method to check if first number of data is smaller or equal to 9,
 	 * therefore represents a legal form.
 	 */
 	private boolean checkLegalForm(String data) {
